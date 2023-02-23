@@ -1,0 +1,22 @@
+{
+   "Play": {
+      "HI": "खेलें",
+      "PO": "Toque",
+      "SP": "Tocar"
+   },
+   "Drink": {
+      "HI": "पीना",
+      "PO": "Beber",
+      "SP": "Beber"
+   },
+   "Buffet": {
+      "HI": "बुफ़े",
+      "PO": "Bufê",
+      "SP": "Buffet"
+   },
+   "Language": {
+      "HI": "भाषा",
+      "PO": "Linguagem",
+      "SP": "Idioma"
+   }
+}

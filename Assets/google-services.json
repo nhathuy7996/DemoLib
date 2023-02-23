@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486789307621",
+    "project_id": "demolib-9df5f",
+    "storage_bucket": "demolib-9df5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486789307621:android:246165eca816571a6f880c",
+        "android_client_info": {
+          "package_name": "com.KEM.DemoLib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486789307621-sharb41msku9urodi07t7o1popfi31tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmVl8S3qtnrLGbegO8ZLjQ9O1j5Xc4mVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486789307621-sharb41msku9urodi07t7o1popfi31tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
