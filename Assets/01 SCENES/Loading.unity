@@ -231,6 +231,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1442542896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1442542896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
@@ -298,6 +302,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3rdLib
       objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _isBannerAutoShow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[0]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[1]
+      value: ca-app-pub-3940256099942544/2247696111
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[2]
+      value: ca-app-pub-3940256099942544/2247696112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[3]
+      value: ca-app-pub-3940256099942544/2247696113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[4]
+      value: ca-app-pub-3940256099942544/2247696114
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[5]
+      value: ca-app-pub-3940256099942544/2247696115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[6]
+      value: ca-app-pub-3940256099942544/2247696116
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[7]
+      value: ca-app-pub-3940256099942544/2247696117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[8]
+      value: ca-app-pub-3940256099942544/2247696118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _OpenAdUnitIDs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _adNativePanel.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773294732819327248, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _OpenAdUnitIDs.Array.data[0]
+      value: 6b7094c5d21fcfe5
+      objectReference: {fileID: 0}
     - target: {fileID: 8498453281126072278, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -308,6 +368,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8498453281126072278, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498453281126072278, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
