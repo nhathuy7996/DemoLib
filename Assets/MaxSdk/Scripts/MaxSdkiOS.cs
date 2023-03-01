@@ -23,11 +23,6 @@ public class MaxSdkiOS : MaxSdkBase
         get { return MaxVariableServiceiOS.Instance; }
     }
 
-    public static MaxUserServiceiOS UserService
-    {
-        get { return MaxUserServiceiOS.Instance; }
-    }
-
     #region Initialization
 
     [DllImport("__Internal")]
@@ -138,6 +133,20 @@ public class MaxSdkiOS : MaxSdkBase
     public static void ShowMediationDebugger()
     {
         _MaxShowMediationDebugger();
+    }
+
+    [DllImport("__Internal")]
+    private static extern void _MaxShowCreativeDebugger();
+
+    /// <summary>
+    /// Present the creative debugger UI.
+    /// This debugger tool provides information for recently displayed ads.
+    ///
+    /// Please call this method after the SDK has initialized.
+    /// </summary>
+    public static void ShowCreativeDebugger()
+    {
+        _MaxShowCreativeDebugger();
     }
 
     [DllImport("__Internal")]
@@ -1470,7 +1479,14 @@ public class MaxSdkiOS : MaxSdkBase
     [MonoPInvokeCallback(typeof(ALUnityBackgroundCallback))]
     internal static void BackgroundCallback(string propsStr)
     {
-        MaxSdkCallbacks.Instance.ForwardEvent(propsStr);
+        try
+        {
+            MaxSdkCallbacks.Instance.ForwardEvent(propsStr);
+        }
+        catch (Exception exception)
+        {
+            MaxSdkLogger.UserError("Unable to notify ad delegate due to exception: " + exception.Message);
+        }
     }
 
     #endregion

@@ -282,9 +282,15 @@ extern "C"
         [_sdk showMediationDebugger];
     }
 
-    void _MaxShowConsentDialog()
+    void _MaxShowCreativeDebugger()
     {
-        NSLog(@"[%@] Failed to show consent dialog - Unavailable on iOS, please use the consent flow: https://dash.applovin.com/documentation/mediation/unity/getting-started/consent-flow", TAG);
+        if ( !_sdk )
+        {
+            NSLog(@"[%@] Failed to show creative debugger - please ensure the AppLovin MAX Unity Plugin has been initialized by calling 'MaxSdk.InitializeSdk();'!", TAG);
+            return;
+        }
+        
+        [_sdk showCreativeDebugger];
     }
     
     int _MaxConsentDialogState()
@@ -1034,6 +1040,28 @@ extern "C"
                 _extraParametersToSet[stringKey] = NSSTRING(value);
             }
         }
+    }
+
+    const char * _MaxGetCFType()
+    {
+        if ( !_sdk )
+        {
+            NSLog(@"[%@] Failed to get available mediated networks - please ensure the AppLovin MAX Unity Plugin has been initialized by calling 'MaxSdk.InitializeSdk();'!", TAG);
+            return cStringCopy(@(ALCFTypeUnknown).stringValue);
+        }
+        
+        return cStringCopy(@(_sdk.cfService.cfType).stringValue);
+    }
+
+    void _MaxStartConsentFlow()
+    {
+        if (!isPluginInitialized())
+        {
+            logUninitializedAccessError("_MaxStartConsentFlow");
+            return;
+        }
+        
+        [_adManager startConsentFlow];
     }
 
     float _MaxGetAdaptiveBannerHeight(const float width)

@@ -15,18 +15,6 @@ MonoBehaviour:
   qualityServiceEnabled: 1
   sdkKey: 3N4Mt8SNhOzkQnGb9oHsRRG1ItybcZDpJWN1fVAHLdRagxP-_k_ZXVaMAdMe5Otsmp6qJSXskfsrtakfRmPAGW
   setAttributionReportEndpoint: 0
-  consentFlowEnabled: 0
-  consentFlowPrivacyPolicyUrl: 
-  consentFlowTermsOfServiceUrl: 
-  userTrackingUsageDescriptionEn: 
-  userTrackingUsageLocalizationEnabled: 0
-  userTrackingUsageDescriptionDe: 
-  userTrackingUsageDescriptionEs: 
-  userTrackingUsageDescriptionFr: 
-  userTrackingUsageDescriptionJa: 
-  userTrackingUsageDescriptionKo: 
-  userTrackingUsageDescriptionZhHans: 
-  userTrackingUsageDescriptionZhHant: 
   adMobAndroidAppId: ca-app-pub-4584260126367940~4057662563
   adMobIosAppId: 
-  snapAppStoreAppId: 0
+  showInternalSettingsInIntegrationManager: 0
