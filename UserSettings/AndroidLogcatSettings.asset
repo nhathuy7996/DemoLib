@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "BAB00116873",
+    "m_SelectedDeviceId": "99041FFAZ00C6S",
     "m_SelectedPackage": {
-        "deviceId": "BAB00116873",
-        "name": "com.apero.savethepuppy.drawtheline.doggame",
-        "processId": 31451,
+        "deviceId": "99041FFAZ00C6S",
+        "name": "com.apero.gunsimulator.lightsaber.gunsounds",
+        "processId": 4091,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,18 @@
             "deviceId": "BAB00116873",
             "name": "com.apero.savethepuppy.drawtheline.doggame",
             "processId": 31451,
+            "exited": false
+        },
+        {
+            "deviceId": "99041FFAZ00C6S",
+            "name": "com.android.vending",
+            "processId": 30228,
+            "exited": false
+        },
+        {
+            "deviceId": "99041FFAZ00C6S",
+            "name": "com.apero.gunsimulator.lightsaber.gunsounds",
+            "processId": 4091,
             "exited": false
         }
     ],
