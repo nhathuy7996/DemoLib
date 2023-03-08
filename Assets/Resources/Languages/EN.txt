@@ -1,15 +1,15 @@
 {
-   "Play": {
+   "Native on scroll": {
       "HI": "खेलें",
       "PO": "Toque",
       "SP": "Tocar"
    },
-   "Drink": {
+   "Native AD apart": {
       "HI": "पीना",
       "PO": "Beber",
       "SP": "Beber"
    },
-   "Buffet": {
+   "Native AD full": {
       "HI": "बुफ़े",
       "PO": "Bufê",
       "SP": "Buffet"
