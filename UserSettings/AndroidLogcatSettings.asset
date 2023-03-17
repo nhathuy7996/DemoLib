@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "NBE6YDEYUWIRQ8PJ",
     "m_SelectedPackage": {
         "deviceId": "NBE6YDEYUWIRQ8PJ",
-        "name": "com.vapesimulator.realsmoking.vapeprank",
-        "processId": 30657,
+        "name": "com.apero.gunsimulator.lightsaber.gunsounds",
+        "processId": 19138,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,12 @@
             "deviceId": "NBE6YDEYUWIRQ8PJ",
             "name": "com.vapesimulator.realsmoking.vapeprank",
             "processId": 30657,
+            "exited": true
+        },
+        {
+            "deviceId": "NBE6YDEYUWIRQ8PJ",
+            "name": "com.apero.gunsimulator.lightsaber.gunsounds",
+            "processId": 19138,
             "exited": false
         }
     ],
