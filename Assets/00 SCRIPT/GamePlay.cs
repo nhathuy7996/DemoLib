@@ -19,7 +19,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
 
     void AssignNativeAdToPosition()
     {
-        _ = AdManager.Instant.ShowNative(1, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(1, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdFullPos);
 
@@ -30,7 +30,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 1);
         });
 
-        _ = AdManager.Instant.ShowNative(2, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(2, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdApart1);
 
@@ -41,7 +41,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 0.4f);
         });
 
-        _ = AdManager.Instant.ShowNative(3, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(3, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdApart2);
 
@@ -54,7 +54,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMin = new Vector2(0, 0.6f);
         });
 
-        _ = AdManager.Instant.ShowNative(4, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(4, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdOnScroll1);
 
@@ -65,7 +65,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 1);
         });
 
-        _ = AdManager.Instant.ShowNative(5, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(5, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdOnScroll2);
 
@@ -76,7 +76,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 1);
         });
 
-        _ = AdManager.Instant.ShowNative(6, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(6, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdOnScroll3);
 
@@ -87,7 +87,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 1);
         });
 
-        _ = AdManager.Instant.ShowNative(7, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(7, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdOnScroll4);
 
@@ -98,7 +98,7 @@ public class GamePlay : DVAH.Singleton<GamePlay>
             nativePanel.rectTransform.anchorMax = new Vector2(1, 1);
         });
 
-        _ = AdManager.Instant.ShowNative(8, (nativePanel) =>
+        AdManager.Instant.ShowNativeAsync(8, (nativePanel) =>
         {
             nativePanel.transform.SetParent(_nativeAdOnScroll5);
 
