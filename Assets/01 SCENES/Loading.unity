@@ -306,6 +306,90 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _MaxSdkKey
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _BannerAdUnitID
+      value: bannerID
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _paid_ad_revenue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _RewardedAdUnitID
+      value: rewardID
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _isBannerAutoShow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _initBannerManually
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _InterstitialAdUnitID
+      value: interID
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[0]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[1]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[2]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[3]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[4]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[5]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[6]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[7]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[8]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _NativeAdID.Array.data[9]
+      value: ca-app-pub-3940256099942544/2247696110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _OpenAdUnitIDs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _adNativePanel.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391786804495112896, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
+      propertyPath: _OpenAdUnitIDs.Array.data[0]
+      value: appopen(adopen)ID
+      objectReference: {fileID: 0}
     - target: {fileID: 6596462342938566256, guid: b085c1fb57ee7470a8a8c5cfa29431dd, type: 3}
       propertyPath: m_Name
       value: 3rdLib
@@ -483,6 +567,10 @@ PrefabInstance:
     - target: {fileID: 415478, guid: a3267720e82aa41c1a05ab29824902b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114179903453641630, guid: a3267720e82aa41c1a05ab29824902b4, type: 3}
+      propertyPath: appToken
+      value: token
       objectReference: {fileID: 0}
     - target: {fileID: 114179903453641630, guid: a3267720e82aa41c1a05ab29824902b4, type: 3}
       propertyPath: startManually
